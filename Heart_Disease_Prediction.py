@@ -72,7 +72,7 @@ plt.show()
 # In[6]:
 
 
-#Random Forest Model
+#Gradient Boosting Model
 gb_model = GradientBoostingClassifier(n_estimators=100, random_state=42)
 gb_model.fit(X_train_scaled, y_train)
 
